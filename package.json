@@ -1,0 +1,14 @@
+{
+  "name": "ig-reel-api",
+  "version": "1.0.0",
+  "description": "Headless Playwright API for IG Reels",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npx playwright install chromium --with-deps"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.41.2"
+  }
+}
